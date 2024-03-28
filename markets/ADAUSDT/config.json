@@ -1,0 +1,35 @@
+{
+    "coinbase": {
+        "api_url": "https://api.coinbase.com",
+        "api_key_file": "coinbase.key",
+        "config" : {
+            "autorestart": 1,
+            "base_currency": "ADA",
+            "disablebuynearhigh": 1,
+            "enableinsufficientfundslogging": 1,
+            "enabletelegrambotcontrol": 1,
+            "granularity": "15m",
+            "live": 1,
+            "nobuynearhighpcnt": 1,
+            "nosellmaxpcnt": 3,
+            "nosellminpcnt": -9,
+            "quote_currency": "USDT",
+            "sellatresistance": 1,
+            "selllowerpcnt": -12,
+            "telegram": 1,
+            "trailingbuypcnt": 1,
+            "trailingstoploss": -1,
+            "trailingstoplosstrigger": 3,
+            "verbose": 0,
+            "websocket": 0
+        }
+    },
+
+    "telegram": {
+        "token": "",
+        "user_id": "0000000000",
+        "client_id": "",
+        "datafolder": "",
+        "logger_level": "DEBUG"
+    }
+}
